@@ -196,7 +196,7 @@ def areaExtract(path,tc,pressure):
         AreaAir[i]=np.sum(alpha_area*alpha_vf)
     cl=1462
     collapseArr=np.abs((AreaAir-AreaAir[0])/AreaAir[0])
-    collapse_idx=np.where(collapseArr>0.01)[0][0]
+    collapse_idx=np.where(collapseArr>0.001)[0][0]
     A0=(np.pi*R0**2)/2
     t_sim=np.linspace(0,tc,M)
     t_sim=t_sim/(R0/cl)
