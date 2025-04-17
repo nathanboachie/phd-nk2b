@@ -1,9 +1,7 @@
 from visit import *
 
-#domain_folders=['WS_100e6_Euler','WS_10e6_Euler','WS_1e6','WS_1e6_Euler','WS_1e6_ST','WS_500e5_Euler']
-#write_folders=['volumeFrac_WS100e6_Euler','volumeFrac_WS10e6_Euler','volumeFrac_WS1e6','volumeFrac_WS1e6_Euler','volumeFrac_WS1e6_ST','volumeFrac_WS500e5_Euler']
-domain_folders=['WS_1e6_ST']
-write_folders=['volumeFrac_WS1e6_ST']
+domain_folders=['WS_100e6_Euler','WS_10e6_Euler','WS_1e6','WS_1e6_Euler','WS_1e6_ST','WS_500e5_Euler']
+write_folders=['volumeFrac_WS100e6_Euler','volumeFrac_WS10e6_Euler','volumeFrac_WS1e6','volumeFrac_WS1e6_Euler','volumeFrac_WS1e6_ST','volumeFrac_WS500e5_Euler']
 for domain_folder,write_folder in zip(domain_folders,write_folders):
   
   DeleteAllPlots()
