@@ -1,0 +1,3 @@
+1. Make folders for alpha w/in each file for L11 (alpha_{domain_folder})
+2. Make volume fraction folder in L11 for data post-processing
+
